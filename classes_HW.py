@@ -70,6 +70,7 @@ figure2 = Rectangle(10, 2)
 # - наприклад"літак на 5 годин швидше за поїзд" - вивести всі дані про перевезення(поїзд)
 #
 class Transport:
+
     def __init__(self, time_in_the_road):
         self.time_in_the_road: float = time_in_the_road
 
